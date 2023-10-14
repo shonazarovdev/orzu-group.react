@@ -1,6 +1,12 @@
+import { Mobile } from "./components";
+
 function App() {
 	return (
-		<div className="App">Hello, world!</div>
+		<div className="wrapper">
+			<Mobile>
+				<h1>Hello, world!</h1>
+			</Mobile>
+		</div>
 	);
 }
 

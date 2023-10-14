@@ -1,9 +1,53 @@
 @import 'fonts';
 @import 'settings.scss';
 
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background-color: $black;
 	color: $white;
 	font-family: $font;
 	font-size: 15px;
 }
+
+.wrapper {
+	width: 100%;
+	min-height: 100vh;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul,
+li,
+ol {
+	list-style: none;
+}
+
+button,
+input,
+textarea {
+	outline: none;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+@import '../../components/Mobile';
