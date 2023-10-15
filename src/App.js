@@ -4,7 +4,7 @@ function App() {
 	return (
 		<div className="wrapper">
 			<Mobile>
-				<h1>Hello, world!</h1>
+				<h2>Content</h2>
 			</Mobile>
 		</div>
 	);
