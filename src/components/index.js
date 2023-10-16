@@ -1,3 +1,4 @@
 import Mobile from "./Mobile";
+import SideMenu from "./Menu";
 
-export { Mobile }
+export { Mobile, SideMenu }

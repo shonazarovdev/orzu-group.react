@@ -32,10 +32,10 @@ const Mobile = ({ children }) => {
 						</div>
 					</div>
 				</div>
-				{ children }
+				{ children } // Outlet
 			</main>
 			<footer>
-				<a href="https://github.com/themaverickmu" target="_blank" title="Website Developer">Developed by: themaverickmu</a>
+				<a href="https://github.com/shonazarovdev" target="_blank" rel="noreferrer" title="Website Developer">Developed by: shonazarovdev</a>
 			</footer>
 		</div>
 	);
