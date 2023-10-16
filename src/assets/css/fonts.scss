@@ -11,6 +11,7 @@
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 500;
+	font-display: optional;
 	src: url("/assets/fonts/Montserrat/woff/Montserrat-Medium.woff") format('woff');
 }
 
@@ -19,6 +20,7 @@
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 600;
+	font-display: optional;
 	src: url("/assets/fonts/Montserrat/woff/Montserrat-SemiBold.woff") format('woff');
 }
 
@@ -27,6 +29,7 @@
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 700;
+	font-display: optional;
 	src: url("/assets/fonts/Montserrat/woff/Montserrat-Bold.woff") format('woff');
 }
 
@@ -35,6 +38,7 @@
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 800;
+	font-display: optional;
 	src: url("/assets/fonts/Montserrat/woff/Montserrat-ExtraBold.woff") format('woff');
 }
 
@@ -43,5 +47,6 @@
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 900;
+	font-display: optional;
 	src: url("/assets/fonts/Montserrat/woff/Montserrat-Black.woff") format('woff');
 }
