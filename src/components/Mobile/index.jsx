@@ -22,7 +22,7 @@ const Mobile = ({ children }) => {
 
 	return (
 		<div className="mobile">
-			<Menu openMenu={ openMenu } setOpenMenu={ setOpenMenu } />
+			<Menu openMenu={ openMenu } setOpenMenu={ setOpenMenu } handleOpenMenu={handleOpenMenu} />
 			<div className="burger">
 				<button onClick={ () => handleOpenMenu() } type="button" className={ clsx(openMenu && 'active') }>
 					<span></span>

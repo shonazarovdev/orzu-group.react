@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import clsx from "clsx";
 
-const Menu = ({ openMenu, setOpenMenu }) => {
+const Menu = ({ openMenu, handleOpenMenu }) => {
 	const [ activePage, setActivePage ] = useState('non-maxsulotlari');
 
 	const handleActivePage = (name) => {
-		setOpenMenu(!openMenu)
+		handleOpenMenu()
 		setActivePage(name)
 	}
 
