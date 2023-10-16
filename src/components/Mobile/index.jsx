@@ -8,7 +8,7 @@ const Mobile = ({ children }) => {
 	return (
 		<div className="mobile">
 			<header>
-				<img src="/img/header.webp" alt="Restaurant" loading="lazy" />
+				<img src="/img/header.webp" alt="Restaurant" />
 			</header>
 			<main>
 				<div className="top">
