@@ -1,18 +1,6 @@
 @import 'fonts';
 @import 'settings.scss';
 
-*,
-*:before,
-*:after {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-html {
-	scroll-behavior: smooth;
-}
-
 body {
 	background-color: $black;
 	color: $white;
@@ -46,9 +34,9 @@ textarea {
 
 img {
 	display: block;
-	aspect-ratio: 1 / 1;
 	width: 100%;
 }
 
-@import '../../components/Mobile';
-@import '../../components/Menu';
+html {
+	scroll-behavior: smooth;
+}
