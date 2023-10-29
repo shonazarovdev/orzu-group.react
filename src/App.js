@@ -1,7 +1,9 @@
 function App() {
 	return (
 		<div className="wrapper">
-			Hello, world!
+			<div className="mobile">
+				Hello, world!
+			</div>
 		</div>
 	);
 }
