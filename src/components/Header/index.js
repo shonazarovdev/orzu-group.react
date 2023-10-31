@@ -5,9 +5,10 @@ import { MdClear } from 'react-icons/md'
 
 const Header = ({}) => {
 	const [ open, setOpen ] = useState(false);
+	const [ active, setActive ] = useState(1);
 
 	const handleOpen = () => {
-		setOpen(!open);
+		setOpen(prev => !prev);
 		if ( open ) {
 			window.document.body.style.removeProperty("overflow");
 			window.document.body.style.removeProperty("height");
@@ -15,6 +16,11 @@ const Header = ({}) => {
 			window.document.body.style.overflow = "hidden";
 			window.document.body.style.height = "100vh";
 		}
+	}
+
+	const handleClick = (num) => {
+		setActive(num);
+		setOpen(prev => !prev);
 	}
 
 	const pageUp = () => {
@@ -33,6 +39,13 @@ const Header = ({}) => {
 							<div className="i"><BiSearch size="20px" /></div>
 							<input type="text" placeholder="Поиск..." />
 							<div className="i"><MdClear size="20px" /></div>
+						</div>
+
+						<div className="list">
+							<a href="#" className={ clsx("i", active === 1 && "active") } onClick={ () => handleClick(1) }>Нон махсулотлари</a>
+							<a href="#" className={ clsx("i", active === 2 && "active") } onClick={ () => handleClick(2) }>Картошка махсулотлари</a>
+							<a href="#" className={ clsx("i", active === 3 && "active") } onClick={ () => handleClick(3) }>Майонез махсулотлари</a>
+							<a href="#" className={ clsx("i", active === 4 && "active") } onClick={ () => handleClick(4) }>Соус махсулотлари</a>
 						</div>
 
 					</div>
