@@ -1,8 +1,14 @@
+import { Header } from "./components";
+
 function App() {
 	return (
 		<div className="wrapper">
 			<div className="mobile">
-				Hello, world!
+				<Header />
+				<main>
+					Hello, world!
+				</main>
+				<footer>Footer</footer>
 			</div>
 		</div>
 	);
