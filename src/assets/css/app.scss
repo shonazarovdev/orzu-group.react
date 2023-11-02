@@ -39,7 +39,7 @@ body {
 			flex: 1 1 100%;
 			z-index: 50;
 
-			padding: (62px + 10px) 15px 0;
+			padding: (62px + 15px) 15px 0;
 		}
 	}
 }
@@ -77,3 +77,5 @@ html {
 
 /* Header Styles */
 @import "../../components/Header";
+/* Product Styles */
+@import "../../components/ProductCard";
