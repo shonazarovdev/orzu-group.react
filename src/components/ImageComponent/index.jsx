@@ -4,6 +4,7 @@ import clsx from "clsx";
 
 export default function ImageComponent ({ src, hash, alt }) {
 	const [ imageLoaded, setImageLoaded ] = useState(false);
+	const width = window.innerWidth - 30;
 
 	useEffect(() => {
 		const img = new Image();
@@ -18,7 +19,7 @@ export default function ImageComponent ({ src, hash, alt }) {
 			<div className={ clsx("hash", imageLoaded && "dn") }>
 				<Blurhash
 					hash={ hash }
-					width={ 340 }
+					width={ width }
 					height={ 230 }
 					resolutionX={ 32 }
 					resolutionY={ 32 }
