@@ -1,25 +1,37 @@
-.hash {
-	transition: opacity .5s;
-	visibility: visible;
+.imageWrap {
+	position: relative;
 
-	&.dn {
-		opacity: 0;
-		visibility: hidden;
-		height: 0;
+	width: 100%;
+	height: 230px;
 
-		transition: opacity .3s;
+	.hash {
+		transition: opacity .5s;
+		visibility: visible;
+
+		&.dn {
+			opacity: 0;
+			visibility: hidden;
+			height: 0;
+
+			transition: opacity .3s;
+		}
 	}
-}
 
-.img {
-	transition: opacity .5s;
-	visibility: visible;
+	.img {
+		width: 100%;
+		height: 100%;
 
-	&.dn {
-		opacity: 0;
-		visibility: hidden;
-		height: 0;
+		object-fit: cover;
 
-		transition: opacity .3s;
+		transition: opacity .5s;
+		visibility: visible;
+
+		&.dn {
+			opacity: 0;
+			visibility: hidden;
+			height: 0;
+
+			transition: opacity .3s;
+		}
 	}
 }
