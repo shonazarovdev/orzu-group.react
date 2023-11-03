@@ -5,10 +5,10 @@ function App() {
 	const data = [
 		{
 			id: 1,
-			name: 'Burger',
+			name: 'Baton',
 			count: '1 уп. 20 шт.',
-			image: '/img/burger.webp',
-			hash: 'LnP=.xt6ysM|?bkCRkjY%$R*aKsn',
+			image: '/img/baton.webp',
+			hash: 'LRPE^*p0u5-;.8tlRjR,*0skSiM|',
 			alt: 'lavash',
 			price: '30.000'
 		}, {
@@ -16,15 +16,15 @@ function App() {
 			name: 'Lavash',
 			count: '1 уп. 20 шт.',
 			image: '/img/lavash.webp',
-			hash: 'LMS~kqjZyFtRxuogWAV?%%kCMvWB',
+			hash: 'LHS5nZMaRpnhmitRo#R5u6M_pKae',
 			alt: 'lavash',
 			price: '29.000'
 		}, {
 			id: 3,
-			name: 'Hot Dog',
+			name: 'Pita',
 			count: '1 уп. 20 шт.',
-			image: '/img/hotdog.webp',
-			hash: 'LkQl,sRl*0n$.9ozRPRPt-jYRObI',
+			image: '/img/pita.webp',
+			hash: 'LZPE|^ozt,x[VykBbwRP.mofWYe.',
 			alt: 'lavash',
 			price: '22.000'
 		},
