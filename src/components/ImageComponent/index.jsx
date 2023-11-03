@@ -28,7 +28,6 @@ export default function ImageComponent ({ src, hash, alt }) {
 			<img
 				src={ src }
 				alt={ alt }
-				loading="lazy"
 				className={ clsx("img", !imageLoaded && "dn") }
 			/>
 		</div>
