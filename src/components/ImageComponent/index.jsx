@@ -29,7 +29,6 @@ export default function ImageComponent ({ src, hash, alt }) {
 			<img
 				src={ src }
 				alt={ alt }
-				decoding="async"g
 				className={ clsx("img", !imageLoaded && "dn") }
 			/>
 		</div>
