@@ -1,0 +1,25 @@
+.hash {
+	transition: opacity .5s;
+	visibility: visible;
+
+	&.dn {
+		opacity: 0;
+		visibility: hidden;
+		height: 0;
+
+		transition: opacity .3s;
+	}
+}
+
+.img {
+	transition: opacity .5s;
+	visibility: visible;
+
+	&.dn {
+		opacity: 0;
+		visibility: hidden;
+		height: 0;
+
+		transition: opacity .3s;
+	}
+}
