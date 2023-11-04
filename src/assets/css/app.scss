@@ -17,32 +17,31 @@ body {
 	height: 100%;
 	overflow-x: hidden;
 	user-select: none;
+}
 
-	/* Mobile Container */
+/* Mobile Container */
 
-	> .mobile {
-		display: flex;
-		flex-direction: column;
+#mobile {
+	display: flex;
+	flex-direction: column;
 
-		max-width: 425px;
-		min-height: 100vh;
-		width: 100%;
+	max-width: 425px;
+	min-height: 100vh;
+	width: 100%;
 
-		overflow-x: hidden;
+	margin-inline: auto;
+	overflow-x: hidden;
 
-		margin-inline: auto;
+	background-color: $blue20;
+}
 
-		background-color: $blue;
+/* Main Content */
 
-		/* Content Wrapper */
-		
-		> main {
-			flex: 1 1 100%;
-			z-index: 50;
+#main {
+	flex: 1 1 100%;
+	z-index: 50;
 
-			padding: (62px + 15px) 15px 0;
-		}
-	}
+	padding: (62px + 15px) 15px 0;
 }
 
 a {
@@ -82,3 +81,5 @@ html {
 @import "../../components/ProductCard";
 /* ImageComponent Styles */
 @import "../../components/ImageComponent";
+/* Footer Styles */
+@import "../../components/Footer";

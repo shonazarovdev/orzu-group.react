@@ -1,4 +1,4 @@
-import { Header, ProductCard } from "./components";
+import { Footer, Header, ProductCard } from "./components";
 
 function App() {
 
@@ -31,15 +31,15 @@ function App() {
 	]
 
 	return (
-		<div className="wrapper">
-			<div className="mobile">
+		<div id="wrapper">
+			<div id="mobile">
 				<Header />
-				<main>
+				<main id="main">
 					{ data.map(item => (
 						<ProductCard key={ item.id } { ...item } />
 					)) }
 				</main>
-				<footer>Footer</footer>
+				<Footer />
 			</div>
 		</div>
 	);
