@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import { ProductCard } from "../components";
-import data from "../data/products.json";
+import products_json from "../data/products.json";
 
 const Page = ({ page }) => {
 	const [ products, setProducts ] = useState([]);
 
 	useEffect(() => {
-		data.data.forEach(el => {
+		products_json.data.forEach(el => {
 			if ( el.category === page ) setProducts(el.products)
 		});
 	}, [page]);

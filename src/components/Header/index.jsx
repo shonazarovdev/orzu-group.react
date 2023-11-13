@@ -1,15 +1,16 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import clsx from "clsx";
 import { BiSearch } from 'react-icons/bi';
 import { MdClear } from 'react-icons/md';
 import { TbPhoneCall, TbTruckDelivery } from 'react-icons/tb';
 import { AiOutlineShop } from 'react-icons/ai';
-import data from '../../data/routes.json';
+import routes_json from '../../data/routes.json';
 
 const Header = ({}) => {
 	const [ open, setOpen ] = useState(false);
 	const [ active, setActive ] = useState('/');
+	const { pathname } = useLocation();
 
 	const handleOpen = () => {
 		setOpen(prev => !prev);
@@ -32,10 +33,10 @@ const Header = ({}) => {
 	};
 
 	useEffect(() => {
-		if (window.location.pathname !== active) {
-			setActive(window.location.pathname);
+		if (pathname !== active) {
+			setActive(pathname);
 		}
-	}, [window.location.pathname]);
+	}, [pathname]);
 
 	return <header id="header">
 
@@ -53,7 +54,7 @@ const Header = ({}) => {
 						</div>
 
 						<div className="list">
-							{ data.data.map(e => (
+							{ routes_json.data.map(e => (
 								<Link to={ e.path } className={ clsx("i", active === e.path && "active") } onClick={ () => handleClick(e.path) } key={ e.id }>
 									<span>•</span>{ e.title }
 								</Link>
