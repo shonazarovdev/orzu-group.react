@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "path": "/",
+      "category": "non",
+      "title": "Non Maxsulotlari"
+    },
+    {
+      "id": 2,
+      "path": "/kartoshka",
+      "category": "kartoshka",
+      "title": "Kartoshka Maxsulotlari"
+    },
+    {
+      "id": 3,
+      "path": "/mayonez",
+      "category": "mayonez",
+      "title": "Mayonez Maxsulotlari"
+    },
+    {
+      "id": 4,
+      "path": "/sous",
+      "category": "sous",
+      "title": "Sous Maxsulotlari"
+    },
+    {
+      "id": 5,
+      "path": "/fastfood",
+      "category": "fastfood",
+      "title": "FastFood Upakovkalari"
+    }
+  ]
+}

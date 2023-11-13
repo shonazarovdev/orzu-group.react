@@ -1,0 +1,169 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"category": "non",
+			"products": [
+				{
+					"id": 1,
+					"name": "Baton",
+					"count": "1 уп. 20 шт.",
+					"image": "/img/baton.webp",
+					"hash": "LRPE^*p0u5-;.8tlRjR,*0skSiM|",
+					"alt": "baton",
+					"price": "30.000"
+				},
+				{
+					"id": 2,
+					"name": "Lavash",
+					"count": "1 уп. 20 шт.",
+					"image": "/img/lavash.webp",
+					"hash": "LHS5nZMaRpnhmitRo#R5u6M_pKae",
+					"alt": "lavash",
+					"price": "29.000"
+				},
+				{
+					"id": 3,
+					"name": "Pita",
+					"count": "1 уп. 20 шт.",
+					"image": "/img/pita.webp",
+					"hash": "LZPE|^ozt,x[VykBbwRP.mofWYe.",
+					"alt": "pita",
+					"price": "22.000"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"category": "kartoshka",
+			"products": [
+				{
+					"id": 1,
+					"name": "Kartoshka",
+					"count": "1 уп. 20 шт.",
+					"image": "/img/baton.webp",
+					"hash": "LRPE^*p0u5-;.8tlRjR,*0skSiM|",
+					"alt": "baton",
+					"price": "30.000"
+				},
+				{
+					"id": 2,
+					"name": "Kartoshka",
+					"count": "1 уп. 20 шт.",
+					"image": "/img/lavash.webp",
+					"hash": "LHS5nZMaRpnhmitRo#R5u6M_pKae",
+					"alt": "lavash",
+					"price": "29.000"
+				},
+				{
+					"id": 3,
+					"name": "Kartoshka",
+					"count": "1 уп. 20 шт.",
+					"image": "/img/pita.webp",
+					"hash": "LZPE|^ozt,x[VykBbwRP.mofWYe.",
+					"alt": "pita",
+					"price": "22.000"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"category": "mayonez",
+			"products": [
+				{
+					"id": 1,
+					"name": "Kartoshka",
+					"count": "1 уп. 20 шт.",
+					"image": "/img/baton.webp",
+					"hash": "LRPE^*p0u5-;.8tlRjR,*0skSiM|",
+					"alt": "baton",
+					"price": "30.000"
+				},
+				{
+					"id": 2,
+					"name": "Kartoshka",
+					"count": "1 уп. 20 шт.",
+					"image": "/img/lavash.webp",
+					"hash": "LHS5nZMaRpnhmitRo#R5u6M_pKae",
+					"alt": "lavash",
+					"price": "29.000"
+				},
+				{
+					"id": 3,
+					"name": "Kartoshka",
+					"count": "1 уп. 20 шт.",
+					"image": "/img/pita.webp",
+					"hash": "LZPE|^ozt,x[VykBbwRP.mofWYe.",
+					"alt": "pita",
+					"price": "22.000"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"category": "sous",
+			"products": [
+				{
+					"id": 1,
+					"name": "Kartoshka",
+					"count": "1 уп. 20 шт.",
+					"image": "/img/baton.webp",
+					"hash": "LRPE^*p0u5-;.8tlRjR,*0skSiM|",
+					"alt": "baton",
+					"price": "30.000"
+				},
+				{
+					"id": 2,
+					"name": "Kartoshka",
+					"count": "1 уп. 20 шт.",
+					"image": "/img/lavash.webp",
+					"hash": "LHS5nZMaRpnhmitRo#R5u6M_pKae",
+					"alt": "lavash",
+					"price": "29.000"
+				},
+				{
+					"id": 3,
+					"name": "Kartoshka",
+					"count": "1 уп. 20 шт.",
+					"image": "/img/pita.webp",
+					"hash": "LZPE|^ozt,x[VykBbwRP.mofWYe.",
+					"alt": "pita",
+					"price": "22.000"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"category": "fastfood",
+			"products": [
+				{
+					"id": 1,
+					"name": "Kartoshka",
+					"count": "1 уп. 20 шт.",
+					"image": "/img/baton.webp",
+					"hash": "LRPE^*p0u5-;.8tlRjR,*0skSiM|",
+					"alt": "baton",
+					"price": "30.000"
+				},
+				{
+					"id": 2,
+					"name": "Kartoshka",
+					"count": "1 уп. 20 шт.",
+					"image": "/img/lavash.webp",
+					"hash": "LHS5nZMaRpnhmitRo#R5u6M_pKae",
+					"alt": "lavash",
+					"price": "29.000"
+				},
+				{
+					"id": 3,
+					"name": "Kartoshka",
+					"count": "1 уп. 20 шт.",
+					"image": "/img/pita.webp",
+					"hash": "LZPE|^ozt,x[VykBbwRP.mofWYe.",
+					"alt": "pita",
+					"price": "22.000"
+				}
+			]
+		}
+	]
+}

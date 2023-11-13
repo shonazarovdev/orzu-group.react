@@ -1,17 +1,19 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import clsx from "clsx";
 import { BiSearch } from 'react-icons/bi';
 import { MdClear } from 'react-icons/md';
 import { TbPhoneCall, TbTruckDelivery } from 'react-icons/tb';
 import { AiOutlineShop } from 'react-icons/ai';
+import data from '../../data/routes.json';
 
 const Header = ({}) => {
 	const [ open, setOpen ] = useState(false);
-	const [ active, setActive ] = useState(1);
+	const [ active, setActive ] = useState('/');
 
 	const handleOpen = () => {
 		setOpen(prev => !prev);
-		if ( open ) {
+		if ( !open ) {
 			window.document.body.style.removeProperty("overflow");
 			window.document.body.style.removeProperty("height");
 		} else {
@@ -20,14 +22,20 @@ const Header = ({}) => {
 		}
 	}
 
-	const handleClick = (num) => {
-		setActive(num);
+	const handleClick = (path) => {
+		setActive(path);
 		setOpen(prev => !prev);
 	}
 
 	const pageUp = () => {
 		window.scrollTo({ top: 0, behavior: "smooth" });
 	};
+
+	useEffect(() => {
+		if (window.location.pathname !== active) {
+			setActive(window.location.pathname);
+		}
+	}, [window.location.pathname]);
 
 	return <header id="header">
 
@@ -45,10 +53,11 @@ const Header = ({}) => {
 						</div>
 
 						<div className="list">
-							<a href="#" className={ clsx("i", active === 1 && "active") } onClick={ () => handleClick(1) }><span>•</span>Нон махсулотлари</a>
-							<a href="#" className={ clsx("i", active === 2 && "active") } onClick={ () => handleClick(2) }><span>•</span>Картошка махсулотлари</a>
-							<a href="#" className={ clsx("i", active === 3 && "active") } onClick={ () => handleClick(3) }><span>•</span>Майонез махсулотлари</a>
-							<a href="#" className={ clsx("i", active === 4 && "active") } onClick={ () => handleClick(4) }><span>•</span>Соус махсулотлари</a>
+							{ data.data.map(e => (
+								<Link to={ e.path } className={ clsx("i", active === e.path && "active") } onClick={ () => handleClick(e.path) } key={ e.id }>
+									<span>•</span>{ e.title }
+								</Link>
+							)) }
 						</div>
 
 						<div className="info">
