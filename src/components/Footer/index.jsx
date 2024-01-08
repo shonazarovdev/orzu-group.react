@@ -15,12 +15,12 @@ const Footer = () => {
 				</div>
 				<div className="b">
 					<div className="t">Адрес</div>
-					<div className="v"><span className="i"><HiOutlineLocationMarker size={22} /></span>Ургенч, Хорезм</div>
+					<a href="https://yandex.com/maps/-/CCU9jGXidA" className="v"><span className="i"><HiOutlineLocationMarker size={22} /></span>Ургенч, Хорезм</a>
 				</div>
 				<div className="b">
 					<div className="t">Телефон</div>
-					<div className="v"><span className="i"><TbPhoneCall size={22} /></span>+998 97 211 11 15</div>
-					<div className="v"><span className="i"><TbPhoneCall size={22} /></span>+998 97 601 11 15</div>
+					<a href="tel:998972111115" className="v"><span className="i"><TbPhoneCall size={22} /></span>+998 97 211 11 15</a>
+					<a href="tel:998976011115" className="v"><span className="i"><TbPhoneCall size={22} /></span>+998 97 601 11 15</a>
 				</div>
 				<div className="b s">
 					<div className="t">Ижтимоий тармоклар</div>

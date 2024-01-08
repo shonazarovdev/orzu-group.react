@@ -79,7 +79,7 @@ const Header = ({}) => {
 							</div>
 							<div className="b">
 								<div className="t">Телефон:</div>
-								<a href="#" className="v">
+								<a href="tel:998972111115" className="v">
 									<span className="i">
 										<TbPhoneCall size="20px" />
 									</span>

@@ -191,7 +191,7 @@ Header Styles
 					width: 100%;
 
 					margin-inline: auto;
-					padding: 80px 0 20px;
+					padding: 80px 0 40px;
 
 					/*
 
@@ -318,6 +318,10 @@ Header Styles
 
 									margin-right: 7px;
 								}
+							}
+
+							> a.v {
+								text-decoration: underline;
 							}
 						}
 					}
